@@ -1,0 +1,17 @@
+body {
+	background: url('images/Rose-Colored-Lenses.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: 0px 0px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+#songId {
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	position: absolute;
+}
