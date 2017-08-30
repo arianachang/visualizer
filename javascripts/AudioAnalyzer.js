@@ -39,7 +39,7 @@ AudioVisualizer.prototype.initialize = function() {
 
 	//add camera
 	this.camera = new THREE.PerspectiveCamera(45, width/height, 0.1, 25000);
-	this.camera.position.set(0, 45, 0);
+	this.camera.position.set(0, 0, 100);
 	this.scene.add(this.camera);
 
 	//get renderer
